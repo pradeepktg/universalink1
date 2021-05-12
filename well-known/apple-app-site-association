@@ -4,7 +4,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "748CDJ9KNG.com.intelity.universalink",
+      "appIDs": [ "748CDJ9KNG.com.intelity.universalink"],
         "components": [
             {
                "/": "/reservation/*",
