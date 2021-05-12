@@ -32,5 +32,9 @@
         ]
       }
     ]
-  }
+  },
+
+  "webcredentials": {
+      "apps": [ "748CDJ9KNG.com.intelity.universalink" ]
+   }
 }
