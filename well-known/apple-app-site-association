@@ -1,0 +1,27 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "748CDJ9KNG.com.intelity.universalink"],
+             "components": [
+               {
+                  "/": "/reservation/*",
+                  "comment": "Matches any URL whose path starts with /reservation/"
+               },
+               {
+                  "/": "/content/*",
+                  "comment": "Matches any URL whose path starts with /content/"
+               },
+               {
+                  "/": "/reservation/*",
+                  "?": { "reservationId": "????????????????????????????????????" },
+                  "comment": "Matches any URL whose path starts with /reservation/ and which has a query item with name 'reservationId' and a value of exactly 36 characters"
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "748CDJ9KNG.com.intelity.universalink" ]
+   }
+}
