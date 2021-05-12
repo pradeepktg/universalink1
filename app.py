@@ -20,8 +20,8 @@ def content():
 def wellknown(filename):
     return send_from_directory(directory=app.root_path + '/well-known/',
                                                   filename=filename,
-                                                  mimetype='application/pkcs7-mime')
+                                                  mimetype='application/json')
 
 @app.route("/<path:filename>", methods=['GET','POST'])
 def aasa(filename):
-    return send_from_directory(directory=app.root_path + '/well-known/',filename=filename,mimetype='application/pkcs7-mime')
+    return send_from_directory(directory=app.root_path + '/well-known/',filename=filename,mimetype='application/json')
